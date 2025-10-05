@@ -1,0 +1,41 @@
+{
+  "name": "veriflow",
+  "version": "1.0.0",
+  "description": "Simple API to empower ecommerce companies against fraudulent transactions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend.js",
+    "dev": "nodemon backend.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anay-jo/VeriFlow.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "facial",
+    "recognition",
+    "transactions",
+    "finance",
+    "trust",
+    "transparency",
+    "safety"
+  ],
+  "author": "Anay Joshi Ayush Sridhar Arjun Chatterjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anay-jo/VeriFlow/issues"
+  },
+  "homepage": "https://github.com/Anay-jo/VeriFlow#readme",
+  "dependencies": {
+    "@azure/msal-node": "^3.8.0",
+    "axios": "^1.12.2",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0",
+    "react-plaid-link": "^4.1.1"
+  }
+}
